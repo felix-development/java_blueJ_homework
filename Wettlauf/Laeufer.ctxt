@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Laeufer
+comment1.params=pName
+comment1.target=Laeufer(java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment3.params=
+comment3.target=double\ getZeit()
+comment4.params=
+comment4.target=boolean\ getQualifiziert()
+comment5.params=pName
+comment5.target=void\ setName(java.lang.String)
+comment6.params=pZeit
+comment6.target=void\ setZeit(double)
+numComments=7

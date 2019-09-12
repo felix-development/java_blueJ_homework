@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Wettlauf
+comment1.params=pLauf
+comment1.target=Wettlauf(int)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Wettlauf\r\n
+comment2.params=
+comment2.target=void\ anDenStart()
+comment3.params=
+comment3.target=void\ Lauf()
+numComments=4
