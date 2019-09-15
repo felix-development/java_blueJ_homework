@@ -1,0 +1,26 @@
+#BlueJ class context
+comment0.target=Wettlauf
+comment0.text=\r\n\ Simuliert\ einen\ Wettlauf\ mit\ 8\ Teilnehmern.\ Die\ ersten\ beiden\ erhalten\ einen\ Qualifikationsvermerk\!\r\n\ \r\n\ @author\ Felix\ Patryjas\r\n\ @version\ (15.09.2019)\r\n
+comment1.params=pAnzahl
+comment1.target=Wettlauf(int)
+comment1.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Wettlauf\r\n
+comment2.params=
+comment2.target=void\ anDenStart()
+comment2.text=\r\n\ Startsimulation\:\ alle\ L\u00E4ufer\ werden\ instanziiert\!\r\n\ \r\n
+comment3.params=
+comment3.target=void\ rennenLaufen()
+comment3.text=\r\n\ Laufsimulation\:\ Alle\ L\u00E4ufer\ laufen\!\r\n\ \r\n
+comment4.params=
+comment4.target=void\ zeitMessung()
+comment4.text=\r\n\ Zeitmessung\:\ Wertet\ den\ Lauf\ aus\r\n\ 1./2.\ erhalten\ Qualifikationsvermerk\r\n
+comment5.params=
+comment5.target=void\ Durchschnittszeit()
+comment6.params=
+comment6.target=void\ ausgabe()
+comment6.text=\r\n\ Ausgabe\ der\ Ergebnisse\r\n\ \r\n
+comment7.params=
+comment7.target=java.lang.String\ zufallsString()
+comment7.text=\r\n\ Generiert\ einen\ Zufallsstring\ der\ L\u00E4nge\ 8\!\r\n\ \r\n
+comment8.params=pErlaubteZeichen\ pRandom
+comment8.target=java.lang.String\ generiereZufallsString(java.lang.String,\ java.util.Random)
+numComments=9
