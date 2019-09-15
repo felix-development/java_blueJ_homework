@@ -115,7 +115,7 @@ public class Wettlauf
         letzterPlatz = vorletzter.getName();        
     }
        
-    private void Durchschnittszeit()
+    private void Durchschnittszeit() // Credits to @lm-development
     {
         double a;
         double b=0;
