@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=pX\ pY
+comment0.target=Maus(int,\ int)
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Maus\r\n
+comment1.params=pxPosHammer\ pyPosHammer
+comment1.target=boolean\ getroffen(int,\ int)
+numComments=2
