@@ -1,7 +1,8 @@
-import java.util.*;
+import java.util.Scanner.*;
 
 /*
  * Implementation des Spiels "MausHauen" (S.55, Nr.4)
+ * @author: Felix Patryjas - Copyright 2019
  */
 
 public class Maus
@@ -33,11 +34,24 @@ public class Maus
     
     public void beenden() // Spiel wird beendet. Die jeweilige Anzahl der Fänge und Versuche wird ausgegeben.
     {
-        System.out.print('\u000C');
-        System.out.println("Spiel zu Ende!");
-        System.out.println("Score: " +faenge);
-        System.out.println("Versuche: " +versuche);
-    }
+        if (versuche >= 3)
+        {
+            System.out.print('\u000C');
+            System.out.println("Spiel zu Ende!");
+            System.out.println("Score: " +faenge);
+            System.out.println("Versuche: " +versuche);
+            /*System.out.println("'Exit' eingeben um Programm zu beenden!");
+            String eingabe = new Scanner(System.in);
+            if(eingabe.equals("Exit"))
+            if(eingabe.equals("exit"))
+            killSwitch();*/  
+        }
+    }    
+    
+    /*public void killSwitch()
+    {
+        System.exit(0);
+    }*/
     
     public boolean versuchen (int XPos, int YPos) // Hier kann die Position der Maus erraten werden.
     {
@@ -47,6 +61,7 @@ public class Maus
             if(mausfeld [XPos] [YPos] == true)
             {
                 faenge++;
+                // beenden();
                 return true;
             }
             return false;
@@ -54,6 +69,7 @@ public class Maus
         else
         {
             versuche++;
+            // beenden();
             return false;
         }
     }

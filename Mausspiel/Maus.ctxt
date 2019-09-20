@@ -1,12 +1,11 @@
 #BlueJ class context
-comment0.target=Maus
-comment0.text=\r\n\ Implementation\ des\ Spiels\ "MausHauen"\ (S.55,\ Nr.4)\r\n
-comment1.params=pX\ pY
-comment1.target=Maus(int,\ int)
+comment0.params=pX\ pY
+comment0.target=Maus(int,\ int)
+comment1.params=
+comment1.target=void\ starten()
 comment2.params=
-comment2.target=void\ starten()
-comment3.params=
-comment3.target=void\ beenden()
-comment4.params=XPos\ YPos
-comment4.target=boolean\ versuchen(int,\ int)
-numComments=5
+comment2.target=void\ beenden()
+comment3.params=XPos\ YPos
+comment3.target=boolean\ versuchen(int,\ int)
+comment3.text=public\ void\ killSwitch()\r\n\ \ \ \ {\r\n\ \ \ \ \ \ \ \ System.exit(0);\r\n}
+numComments=4
