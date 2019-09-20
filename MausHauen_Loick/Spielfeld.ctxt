@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Spielfeld()
+comment0.text=\r\n\ Konstruktor\ f\u00FCr\ Objekte\ der\ Klasse\ Spielfeld\r\n
+comment1.params=
+comment1.target=void\ ausgabe()
+comment2.params=
+comment2.target=void\ spielfeldLeeren()
+comment3.params=
+comment3.target=void\ setzeMaus()
+comment4.params=
+comment4.target=boolean\ mausHauen()
+comment5.params=
+comment5.target=void\ spielen()
+numComments=6
