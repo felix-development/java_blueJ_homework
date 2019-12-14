@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=GUI_project
+comment1.params=
+comment1.target=GUI_project()
+comment2.params=evt
+comment2.target=void\ actionPerformed(java.awt.event.ActionEvent)
+comment3.params=
+comment3.target=void\ generateMenu()
+comment4.params=pZahl
+comment4.target=long\ fibonacci(int)
+comment5.params=evt
+comment5.target=void\ berechnefib(java.awt.event.ActionEvent)
+comment6.params=args
+comment6.target=void\ main(java.lang.String[])
+comment7.params=
+comment7.target=void\ run()
+numComments=8
