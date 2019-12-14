@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Containerschiff
+comment1.params=pMaxheight
+comment1.target=Containerschiff(int)
+comment2.params=pMenge
+comment2.target=void\ Schiffbeladen(int)
+comment3.params=
+comment3.target=int\ getLadungsmenge()
+comment4.params=
+comment4.target=void\ aufSchiffLaden()
+comment5.params=
+comment5.target=void\ LadungAnzeigen()
+comment6.params=
+comment6.target=void\ LadungL\u00F6schen()
+numComments=7
